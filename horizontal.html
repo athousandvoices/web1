@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>수평 리스트 예제</title>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">        <!--
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+        -->
+        <style>
+            ul {
+                list-style:none;
+                text-align:center;
+                border-top:1px solid black;
+                border-bottom:1px solid black; padding:10px;
+            }
+            li {
+                font-family: 'Playfair Display', serif;
+                display:inline; /* 수평 리스트 */
+                text-transform:uppercase;
+                padding:10px; letter-spacing:10px; /* 간격 */
+            }
+            ul li a {
+                text-decoration:none;
+                color:black;
+            }
+            ul li a:hover {
+                text-decoration:underline;
+                text-shadow: 5px 5px 5px #808080;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </body>
+</html>
